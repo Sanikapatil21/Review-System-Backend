@@ -16,6 +16,9 @@ dotenv.config();
 
 dbConnect();
 
+app.get("",()=>{
+  console.log("hello")
+})
 
 
 app.listen(PORT, () => {
